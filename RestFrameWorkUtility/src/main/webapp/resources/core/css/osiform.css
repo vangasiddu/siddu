@@ -1,0 +1,80 @@
+.myForm {
+
+font-size: 0.5em;
+
+
+}
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm fieldset {
+border: none;
+padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+padding: 0;
+
+}
+
+.myForm label.choice {
+font-size: 0.2em;
+font-weight: normal;
+}
+
+.myForm label {
+text-align: left;
+display: block;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm input[type="radio"],
+.myForm input[type="checkbox"] {
+margin-left: 20;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-left: 40%;
+margin-top: 1.8em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+ body{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+td.rowData1 {
+	width: 150px;
+	font: 15pt serif;
+	text-align: justify;
+	left: 10px;
+}
+
+.table-curved {
+	border-collapse: separate;
+	border: solid E1E0CEc 4px;
+	overflow: hidden;
+	align: center;
+}
+
+
