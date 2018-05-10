@@ -24,7 +24,7 @@ EXPOSE 8080
 FROM tomcat
 MAINTAINER ardy.dedase@gmail.com
 
-ADD /usr/src/movieplex7/target/movieplex7-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
-#COPY --from=app /usr/src/movieplex7/target/movieplex7-1.0-SNAPSHOT.war .
+#ADD /usr/src/movieplex7/target/movieplex7-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
+COPY --from=app /usr/spring4-form-handle-example/target/movieplex7-1.0-SNAPSHOT.war .
 
-CMD ["catalina.sh", "run"]
+#CMD ["catalina.sh", "run"]
