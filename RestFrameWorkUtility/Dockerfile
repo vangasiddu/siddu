@@ -31,7 +31,7 @@ RUN ["ls", "/usr/local/tomcat/webapps/"]
 CMD ["catalina.sh", "run"]
 #ENTRYPOINT [ "java", "-jar", "/code/target/myspringboot.jar" ]
 
-#FROM tomcat
+##FROM tomcat
 #MAINTAINER ardy.dedase@gmail.com
 
 #ADD /usr/src/movieplex7/target/movieplex7-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
