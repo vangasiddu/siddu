@@ -22,7 +22,7 @@ From tomcat:8-jre8
 MAINTAINER "siddu.v444@gmail.com"
 EXPOSE 8080
 # Copy to images tomcat path
-RUN ["ls",code/target]
+RUN ["ls","/code/target"]
 #ADD code/target/RestFrameWorkUtility-1.0.0.war /usr/local/tomcat/webapps/
 COPY --from=code/target/RestFrameWorkUtility-1.0.0.war /usr/local/tomcat/webapps/
 RUN ["ls", "/usr/local/tomcat/webapps/"]
