@@ -17,7 +17,6 @@ RUN ["ls", "/code/target"]
 RUN ["pwd"]
 RUN ["ls", "-ltrh", "/code/target/RestFrameWorkUtility-1.0.0.war"]
 
-From tomcat:8-jre8
 MAINTAINER "siddu.v444@gmail.com"
 EXPOSE 8080
 # Copy to images tomcat path
