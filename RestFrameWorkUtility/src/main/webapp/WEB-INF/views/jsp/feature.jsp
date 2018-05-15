@@ -244,12 +244,12 @@ if(pname=="featureFile"){
     <form:radiobutton path="createORappendRQF" id="requestFile2" value="existedFile"/>append</td>
 </tr> 
 <tr>
-<td style="color:white;font-weight:Bold"><form:label path="requestFileData">Request body</form:label></td>
+<td style="color:white;font-weight:Bold"><form:label path="requestFileData">Request_body</form:label></td>
 <td><form:textarea path="requestFileData" /></td>
 </tr>
 
 <tr>
-<td style="color:white;font-weight:Bold"><form:label path="responseFile">Response File</form:label></td>
+<td style="color:white;font-weight:Bold"><form:label path="responseFile">Response_File</form:label></td>
 <td><form:input path="responseFile" id="responseFile" name="responseFile" onkeyup="searchFileName('responseFile');"/></td>
 </tr>
 <tr>
