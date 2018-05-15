@@ -1,0 +1,5 @@
+com\osi\form\model\Feature.class
+com\osi\form\web\FeatureFileController.class
+com\osi\form\config\SpringDBConfig.class
+com\osi\form\config\SpringWebConfig.class
+com\osi\form\model\FeatureFile.class
