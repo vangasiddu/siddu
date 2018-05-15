@@ -21,10 +21,10 @@ EXPOSE 8080
 
 #ENTRYPOINT [ "java", "-jar", "/code/target/myspringboot.jar" ]
 
-FROM tomcat
-MAINTAINER ardy.dedase@gmail.com
+#FROM tomcat
+#MAINTAINER ardy.dedase@gmail.com
 
 #ADD /usr/src/movieplex7/target/movieplex7-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
-COPY --from=app /usr/spring4-form-handle-example/target/movieplex7-1.0-SNAPSHOT.war .
+#COPY --from=app /usr/spring4-form-handle-example/target/movieplex7-1.0-SNAPSHOT.war .
 
 #CMD ["catalina.sh", "run"]
