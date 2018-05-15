@@ -196,7 +196,7 @@ if(pname=="featureFile"){
 <body background="<c:url value='/resources/img/osi.jpg' />">
 
 <form:form method="POST" class="myForm" action="addFeature" name="featureForm">
-<h1 align="center"   style="font:17pt Seri Bold SC;color:white;font-weight:Bold"> Feature File Generation</h1>
+<h1 align="center"   style="font:17pt Seri Bold SC;color:white;font-weight:Bold">************ Feature File Generation ************</h1>
 <table align="center"  >
 <tr>
 <td style="color:white;font-weight:Bold"><form:label path="scenario">Scenario<span style="color:red">*</span></form:label></td>
