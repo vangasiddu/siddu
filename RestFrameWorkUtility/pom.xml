@@ -142,14 +142,7 @@
 					<wtpContextName>spring-mvc-form</wtpContextName>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<warName>RestFrameWorkUtility</warName>
-					<outputDirectory>G:\Tomcat_8.5\webapps\</outputDirectory>
-				</configuration>
-			</plugin>
+			
 
 		</plugins>
 	</build>
